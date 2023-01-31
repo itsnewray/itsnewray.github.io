@@ -1,0 +1,136 @@
+*{
+    margin: 0 0;
+}
+
+.banner{
+    font-size: 32px;
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+    background-image: url(https://i.pinimg.com/originals/48/db/62/48db6201e632e3e2e71515fb3f62ce9c.jpg);
+    background-size: 100% 100%;
+    height: 5vh;
+}
+
+header{
+    width: 100%;
+}
+
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    top: 0;
+    padding: 15px;
+    background-color: #7fa99b;
+}
+
+.menu li{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+a:link{
+    color:#fbf2d5;
+    text-decoration: none;
+}
+
+a:visited{
+    color: red;
+}
+
+aside a:hover{
+    color: #394a51;
+}
+
+a:hover{
+    color: #fdc57b;
+}
+
+h1, h2, h3{
+    text-align: center;
+    padding: 5px 0 5px;
+}
+
+.main_content{
+    background-color: #394a51;
+}
+
+article{
+    padding: 10px;
+}
+
+aside{
+    background-color: #fdc57b;
+    color: #394a51;
+}
+
+#task img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 5%;
+
+}
+
+#task p{
+    font-size: 20px;
+}
+
+#grading{
+    text-align: center;
+}
+
+#grading table{
+    justify-content: center;
+    display: flex;
+    padding: 5px 0 5px;
+}
+
+table td{
+    padding: 5px 0 5px;
+}
+
+#submission{
+    text-align: center;
+}
+
+img[src="planets.jpeg"]{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    height: 400px;
+    width: 400px;
+    border: dashed;
+}
+
+#requirements{
+    text-align: center;
+}
+
+#requirements p, li{
+    padding: 5px;
+}
+
+aside{
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
