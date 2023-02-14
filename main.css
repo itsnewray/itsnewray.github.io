@@ -16,16 +16,11 @@ header{
     width: 100%;
 }
 
-
-
-
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 10vh;
-    top: 0;
-    padding: 15px;
+    padding: 1rem;
     background-color: #7fa99b;
 }
 
@@ -114,10 +109,7 @@ img[src="planets.jpeg"]{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
-    height: 400px;
-    width: 400px;
-    border: dashed;
+    width: 100%;
 }
 
 #requirements{
@@ -133,4 +125,81 @@ aside{
 }
 ul{
     list-style-type: none;
+}
+#submission ul {
+    padding: 0;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+    .logo {
+        display: block;
+        text-align: center;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+    img {
+        width: 100%;
+    }
+    #task img {
+        padding: 0;
+    }
+    img[src="planets.jpeg"]{
+        height: auto;
+    }
+    ul {
+        padding: 0;
+    }
+    footer {
+        background: #03a9f4;
+        margin-left: 0;
+        grid-template-columns: auto;
+    }
+    p, li, td, th {
+        font-size: 1.2em;
+    }
+    h5 {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 1.8em;
+    }
+    table {
+        background: lightcyan;
+        color: #000;
+    }
+    #requirements {
+        color: #fff;
+    }
+    nav {
+        height: auto;
+        flex-direction: column;
+    }
+    #task p, #submission p, #grading {
+        color: #fff;
+    }
+}
+
+@media (min-width: 768px) { /* tablets and bigger */
+    img{
+        width: auto;
+        max-width: 100%;
+    }
+    img[src="planets.jpeg"] {
+        width: auto;
+        height: 400px;
+    }
+}
+
+@media (min-width: 1024px) { /* desktops and bigger */
+    p, li, td, th {
+        font-size: 1.1em;
+    }
+    h5, h2 {
+        font-size: 1.1em;
+    }  
+    img[src="planets.jpeg"]{
+        border: dashed;
+    }
 }
